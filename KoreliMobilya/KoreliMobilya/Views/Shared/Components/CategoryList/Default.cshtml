@@ -1,0 +1,39 @@
+﻿@model List<CategoryListComponentViewModel>
+
+@{
+    int counter = 0;
+}
+
+@foreach (var item in Model)
+{
+    if (counter % 2 == 0)
+    {
+        <div class="col-12 shadowa rounded-5 mt-4 mb-5">
+            <div class="row">
+                <div class="col-md-6 ps-lg-0 mb-0 bg-black bg-opacity-10 d-flex justify-content-center">
+                    <img src="~/images/@(item.ImagePath5)" style=" height:260px;" class="w-75 rounded-start" style="height:35vh;" alt="...">
+                </div>
+                <div class="col-md-6 pt-4 ps-2 rounded-5 bg-light" style="text-align:justify;">
+                    <h5 class="d-flex justify-content-center">@item.Name</h5>
+                    <p>@item.Description</p>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="col-12 shadowa rounded-5 mb-5">
+            <div class="row">
+                <div class="col-md-6 rounded-5 pt-4 ps-2 bg-light" style="text-align:justify;">
+                    <h5 class="d-flex justify-content-center">@item.Name</h5>
+                    <p>@item.Description</p>
+                </div>
+                <div class="col-md-6 pe-lg-0 d-flex bg-black bg-opacity-10 justify-content-center">
+                    <img src="~/images/@(item.ImagePath5)" class="w-75 rounded-end" style="height:38vh;" alt="...">
+                </div>
+            </div>
+        </div>
+    }
+
+    counter++;
+}

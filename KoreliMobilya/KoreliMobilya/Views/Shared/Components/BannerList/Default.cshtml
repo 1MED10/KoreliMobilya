@@ -1,0 +1,31 @@
+﻿@{
+    Layout = null;
+}
+
+
+@model List<BannerListComponentViewModel>
+
+
+
+
+
+
+
+
+
+<div class="row  me-0 justify-content-center">
+    <h4 class="d-flex yazii justify-content-center mb-4 fw-bolder"><strong>En Çok Satanlar</strong> </h4>
+
+    @foreach (var item in Model)
+    {
+        <div class="col-lg-3 col-md-5 col-sm-12 mb-5 ms-5 me-5 shadowa px-0 mx-auto">
+            <a asp-controller="home" asp-action="@item.Link" class="text-black text-decoration-none">
+                <img src="~/images/@(item.ImagePath4)" style=" height:250px;" class="card-img-top rounded-top" alt="...">
+                <div class="mt-2 ms-3">
+                    <p><strong>@item.Name</strong> </p>
+
+                </div>
+            </a>
+        </div>
+    }
+</div>

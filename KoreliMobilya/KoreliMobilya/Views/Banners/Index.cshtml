@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@model List<BannerViewModel>
+<h1>Banner Kontrol Paneli</h1>
+@if (TempData["status"] != null)
+{
+    <div class="alert alert-primary" role="alert">
+        @TempData["status"]
+    </div>
+}
+
+
+<div class="row mt-5">
+    <div class="col-3">
+        <div id="list-example" class="list-group">
+            <a class="list-group-item list-group-item-action" asp-controller="products" asp-action="index">Ürün Kontrol Paneli</a>
+            <a class="list-group-item list-group-item-action" asp-controller="categories" asp-action="index">Kategori Kontrol Paneli</a>
+            <a class="list-group-item list-group-item-action" asp-controller="banners" asp-action="index">Banner Kontrol Paneli</a>
+        </div>
+    </div>
+    <div class="col-9">
+        <a class="btn btn-primary mb-3" asp-controller="Banners" asp-action="add">Banner Ekle</a>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Model Adı</th>
+                    <th>Resim</th>
+                    <th>Link</th>
+                    <th>İşlemler</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Name</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(item.ImagePath4))
+                            {
+                                <img style="width:100px; height:100px" src="/Images/@(item.ImagePath4)" />
+                            }
+                        </td>
+                        <td>@item.Link</td>
+                        <td>
+                            <a class="btn btn-primary " asp-asp-controller="banners" asp-action="remove" asp-route-id="@item.Id">Sil</a>
+                            <a class="btn btn-primary " asp-asp-controller="banners" asp-action="update" asp-route-id="@item.Id">Güncelle</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

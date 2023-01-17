@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "GetById";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@model ProductViewModel
+<a class="btn btn-primary mb-3" asp-controller="products" asp-action="index">Ürünlere Git</a>
+
+<div class="card">
+    <div class="card-header">
+        @Model.Name
+    </div>
+    <div class="card-body">
+        <p class="card-text">
+
+            <div>Id: @Model.Id</div>
+            <div>Kategorisi:   @Model.CategoryName</div>
+            <div class="mb-2">Resim1:  <img style="width:100px; height:100px" src="/Images/@(Model.ImagePath)" /> </div>
+            <div class="mb-2">Resim2:  <img style="width:100px; height:100px" src="/Images/@(Model.ImagePath2)" /> </div>
+            <div class="mb-2">Resim3:  <img style="width:100px; height:100px" src="/Images/@(Model.ImagePath3)" /> </div>
+            <div class="mb-2">Resim7:  <img style="width:100px; height:100px" src="/Images/@(Model.ImagePath7)" /> </div>
+        </p>
+    </div>
+</div>
+
+

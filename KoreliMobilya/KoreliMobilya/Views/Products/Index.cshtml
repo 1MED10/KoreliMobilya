@@ -1,0 +1,89 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+@model List<ProductViewModel>
+
+@if (TempData["status"] != null)
+{
+    <div class="alert alert-primary" role="alert">
+        @TempData["status"]
+    </div>
+}
+
+<h1>Ürün Kontrol Paneli</h1>
+<div class="row mt-5">
+  <div class="col-3">
+    <div id="list-example" class="list-group">
+      <a class="list-group-item list-group-item-action" asp-controller="products" asp-action="index">Ürün Kontrol Paneli</a>
+      <a class="list-group-item list-group-item-action" asp-controller="categories" asp-action="index">Kategori Kontrol Paneli</a>
+      <a class="list-group-item list-group-item-action" asp-controller="banners" asp-action="index">Banner Kontrol Paneli</a>
+    </div>
+  </div>
+  <div class="col-9">
+        <a asp-controller="products" asp-action="add">Ürün Ekle</a>
+        <table class="table ">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Model Adı</th>
+                    <th>Kategori</th>
+
+
+                    <th>Model Resmi </th>
+                    <th>Model Resmi 2</th>
+                    <th>Model Resmi 3</th>
+                    <th>Model Resmi 4</th>
+
+                    <th>İşlemler</th>
+                </tr>
+            </thead>
+            <tbody class="">
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+
+                        <td>@item.Name</td>
+                        <td>@item.CategoryName</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(item.ImagePath))
+                            {
+                                <img style="width:100px; height:100px" src="/Images/@(item.ImagePath)" />
+                            }
+                        </td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(item.ImagePath2))
+                            {
+                                <img style="width:100px; height:100px" src="/Images/@(item.ImagePath2)" />
+                            }
+                        </td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(item.ImagePath3))
+                            {
+                                <img style="width:100px; height:100px" src="/Images/@(item.ImagePath3)" />
+                            }
+                        </td>
+                         <td>
+                            @if (!string.IsNullOrEmpty(item.ImagePath7))
+                            {
+                                <img style="width:100px; height:100px" src="/Images/@(item.ImagePath7)" />
+                            }
+                        </td>
+
+                        <td>
+                            <a asp-asp-controller="products" asp-action="remove" asp-route-id="@item.Id">Sil</a>
+                            <a asp-asp-controller="products" asp-action="update" asp-route-id="@item.Id">Güncelleme</a>
+                            <a asp-route="product" asp-route-productId="@item.Id">  Ürün Detayı </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

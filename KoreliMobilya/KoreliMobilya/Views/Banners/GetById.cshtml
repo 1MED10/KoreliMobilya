@@ -1,0 +1,22 @@
+﻿
+@{
+    Layout = null;
+}
+
+@model BannerViewModel
+
+<a class="btn btn-primary mb-3" asp-controller="banners" asp-action="index">Ürünlere Git</a>
+
+<div class="card">
+    <div class="card-header">
+        Ürün (@Model.Name)
+    </div>
+    <div class="card-body">
+        <p class="card-text">
+
+            <div>Id: @Model.Id</div>
+            <div>Model:   @Model.Name</div>
+            <div>Model:   @Model.ImagePath4</div>
+        </p>
+    </div>
+</div>

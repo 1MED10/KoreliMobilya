@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Yatak";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model List<ProductViewModel>
+
+
+<div class="bg-image col-12 p-0" style="height:80vh;">
+    <img src="~/images/ANTİK.jpg" class="w-100 h-100" />
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.4);">
+        <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="mb-5 position-absolute top-50 start-50 translate-middle ">
+                <h1 class="display p-2 fw-bolder text-white yazi bg-black bg-opacity-50">Yatak Odası Takımları</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="row justify-content-center mx-0 mt-5">
+    @foreach (var item in Model)
+    {
+
+
+        <div class="col-lg-5 col-12 col-md-5 producthov d-inline-block border border-0 rounded p-0  justify-content-center mx-lg-auto   mx-md-3  mb-5  bg-body ">
+            <a asp-controller="home" asp-action="getbyid" asp-route-id="@item.Id">
+                <div class="container123">
+                    <img style="width:100%; height:400px;" class="rounded" src="/Images/@(item.ImagePath)">
+                    <div id="imgtext" class="mt-2 yazii bg-black bg-opacity-50 rounded">
+                        <h2 class="fw-lighter ">@item.Name</h2>
+                    </div>
+                </div>
+              
+                    <button class="btn d-inline w-100" id="imgtext1">İncele</button>
+                    
+            </a>
+
+        </div>
+
+
+
+    }
+
+</div>
+
+
+                                 

@@ -1,0 +1,161 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+ion-icon:hover {
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 32rem;
+}
+
+.zindex {
+    z-index: 100000;
+}
+
+.white-logo {
+    opacity: 1;
+}
+
+.yazi {
+    font-weight: 700;
+    font-size: 2.8rem;
+    text-shadow: 1px 5px 30px rgb(0 0 0 / 80%);
+}
+
+.yazii {
+    text-shadow: 1px 5px 30px rgb(0 0 0 / 80%);
+}
+
+
+
+
+/* The grid: Four equal columns that floats next to each other */
+
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+    .column img:hover {
+        opacity: 1;
+    }
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container */
+/*.container123 {
+    position: relative;
+}*/
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+#imgtext1 {
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    font-size: 20px;
+    background-color:black;
+    opacity:60%;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    text-shadow: 1px 5px 30px rgb(0 0 0 / 100%);
+}
+
+
+
+.producthov:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.logohov:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.shadowa {
+    box-shadow: 0 4px 8px 0 rgb(75, 70, 53), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (min-width: 600px) {
+
+    ion-icon {
+        size =large;
+    }
+}
+
+
+
+.next{
+    position:absolute;
+    top:250px;
+    left:997px;
+    
+
+}

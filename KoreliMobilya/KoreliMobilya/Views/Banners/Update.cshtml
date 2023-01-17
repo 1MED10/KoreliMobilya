@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+
+<h1>Banner Güncelle</h1>
+
+@model BannerViewModel
+
+
+
+<form asp-controller="Banners" asp-action="Update" asp-route-bannerId="@Model.Id" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="ImagePath4" />
+
+    <div>
+        <img style="width:200px; height:200px" src="@(String.IsNullOrEmpty(Model.ImagePath4)? "/Images/dolap.jpg" :"/Images/"+Model.ImagePath4)" />
+    </div>
+
+
+    <div class="mb-3 mt-2">
+        <label as-for="Name" class="form-label">Model İsmi </label>
+        <input class="form-control" asp-for="Name">
+        <span class="text-danger" asp-validation-for="Name"></span>
+    </div>
+      <div class="mb-3">
+        <label for="formFileLg" class="form-label">Ürün Resim   </label>
+        <input class="form-control form-control-lg" asp-for="Image4" type="file">
+    </div>
+    <div class="mb-3">
+        <select class="form-select" asp-for="Link" asp-items="@ViewBag.LinkSelect">
+            <option value="">Takım Adını Seçiniz</option>
+        </select>
+    </div>
+   
+
+    <button class="btn btn-primary mb-3" type="submit">Banner Güncelle</button>
+
+</form>
+
+
+<div>
+    <a class="text-decoration-underline" asp-controller="banners" asp-action="Index">Banner Kontrol Paneline Dön</a>
+</div>
+
+
+@section Scripts
+    {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+}

@@ -1,0 +1,61 @@
+﻿
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+@model CategoryViewModel
+
+<h1>Kategori Güncelle</h1>
+
+ <form asp-controller="categories" asp-action="edit" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="ImagePath5" />
+
+    <div>
+        <img style="width:100px; height:100px" src="@(String.IsNullOrEmpty(Model.ImagePath5)? "/Images/1590944766667.jpg" :"/Images/"+Model.ImagePath5)" />
+    </div>
+
+    <div class="mb-3">
+        <label as-for="Name" class="form-label">Model İsmi </label>
+        <input class="form-control" asp-for="Name">
+        <span class="text-danger" asp-validation-for="Name"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Description" class="form-label">Kategori Açıklaması</label>
+        <textarea class="form-control" asp-for="Description" rows="3"></textarea>
+    </div>
+    <div class="mb-3">
+        <label for="formFileLg" class="form-label">Ürün Resim   </label>
+        <input class="form-control form-control-lg" asp-for="Image5" type="file">
+    </div>
+
+    <button class="btn btn-primary mb-3" type="submit">Ürün Kaydet</button>
+</form>
+
+<div>
+    <a class="text-decoration-underline" asp-action="Index">Kategori Kontrol Paneline Dön</a>
+</div>
+@*<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label">Kategori Adı</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+*@
+@*<div>
+    <a class="text-decoration-underline" asp-action="Index">Kategori Kontrol Paneli Dön</a>
+</div>*@
+

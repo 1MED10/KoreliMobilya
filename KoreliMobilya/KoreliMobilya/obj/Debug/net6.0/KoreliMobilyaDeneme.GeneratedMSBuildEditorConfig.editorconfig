@@ -1,0 +1,169 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = KoreliMobilyaDeneme
+build_property.RootNamespace = KoreliMobilyaDeneme
+build_property.ProjectDir = C:\Users\MED\Downloads\Imageeeeeeeee-main\Imageeeeeeeee-main\KoreliMobilyaDeneme\KoreliMobilyaDeneme\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\MED\Downloads\Imageeeeeeeee-main\Imageeeeeeeee-main\KoreliMobilyaDeneme\KoreliMobilyaDeneme
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/PartialViews/_BannerListPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFydGlhbFZpZXdzXF9CYW5uZXJMaXN0UGFydGlhbFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/PartialViews/_CategoryListPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFydGlhbFZpZXdzXF9DYXRlZ29yeUxpc3RQYXJ0aWFsVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/PartialViews/_ProductListPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFydGlhbFZpZXdzXF9Qcm9kdWN0TGlzdFBhcnRpYWxWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Banners/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFubmVyc1xBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Banners/GetById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFubmVyc1xHZXRCeUlkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Banners/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFubmVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Banners/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFubmVyc1xVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Categories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Categories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Home/Bebevegenc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCZWJldmVnZW5jLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Home/GetById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHZXRCeUlkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Home/Mutfak.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNdXRmYWsuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Home/Tv.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Home/yatak.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx5YXRhay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Home/Yemek.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxZZW1lay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Products/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Products/GetById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcR2V0QnlJZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Products/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Shared/Components/BannerList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQmFubmVyTGlzdFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Shared/Components/CategoryList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcnlMaXN0XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Shared/Components/ProductList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvZHVjdExpc3RcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Shared/_AdminHeaderPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkhlYWRlclBhcnRpYWxWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Shared/_FooterPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXJQYXJ0aWFsVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Shared/_HeaderPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXJQYXJ0aWFsVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Shared/_HeaderPartialView2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXJQYXJ0aWFsVmlldzIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Shared/_Layout2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MED/Downloads/Imageeeeeeeee-main/Imageeeeeeeee-main/KoreliMobilyaDeneme/KoreliMobilyaDeneme/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-0dry75jn4x

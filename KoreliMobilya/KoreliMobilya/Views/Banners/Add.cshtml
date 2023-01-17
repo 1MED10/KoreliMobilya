@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Banner Ekle</h1>
+
+@model BannerViewModel
+
+<div asp-validation-summary="All">
+</div>
+
+
+<form asp-controller="Banners" asp-action="Add" method="post" enctype="multipart/form-data">
+    
+    @*    Backende Tarafında veri yakalamak için name ,JavaScript tarafında veri yakalamak için id kullanıyoruz*@
+    <div class="mb-3">
+    <label asp-for="Name" class="form-label">Banner İsmi </label>
+    <input class="form-control" asp-for="Name">
+        @* Girilmesi zorunlu alanı alttaki metotumuzda uyarıyı gösteriyoruz*@
+    <span class="text-danger" asp-validation-for="Name"></span>
+    </div>
+      <div class="mb-3">
+        <label for="formFileLg" class="form-label">Banner Resim   </label>
+        <input class="form-control form-control-lg"asp-for="Image4" type="file">
+  </div>
+    <div class="mb-3">
+        <select class="form-select" asp-for="Link" asp-items="@ViewBag.LinkSelect">
+            <option value="">Takım Adını Seçiniz</option>
+        </select>
+    </div>
+
+
+        @*    sunucuya değerin gitmesi için mutlaka type submit olmak zorunda*@
+    <button class="btn btn-primary mb-3" type="submit">Banner Ekle</button>
+
+</form>
+
+<div>
+    <a class="text-decoration-underline" asp-controller="banners" asp-action="Index">Banner Kontrol Paneline Dön</a>
+</div>
+
+@section Scripts
+    {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+}

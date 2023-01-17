@@ -1,0 +1,62 @@
+﻿
+<div class=" fixed-top col-sm-12 p-0 m-0">
+    <nav class="navbar  bg-dark bg-opacity-25 zindex">
+        <div class="container-fluid">
+
+            @*   Menu butonu başlangıcı*@
+            <button class="navbar-toggler border- white-logo " type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="text-white fas fa-bars fa-2x"></i>
+                <p class=" text-white">MENU</p>
+            </button>
+            @*   Menu butonu bitişi*@
+
+            <div class="justify-content-center ">
+                <div class="border p-2  ">
+                    <a asp-controller="Home" asp-action="Index" class="text-white fw-bold fs-4 text-decoration-none">KORELİ MOBİLYA</a>
+                </div>
+            </div>
+
+
+         @*Login*@
+               <div class="d-flex me-1  align-item-center logohov py-2">
+                <a asp-controller="login" asp-action="index" class=" text-white text-decoration-none ">
+                    <div class="item px-2">
+                         <strong> <ion-icon class="" size="large" name="log-in-outline"></ion-icon></strong>
+                        <div class="sub "><strong>GİRİŞ</strong></div>
+                    </div>
+                </a>
+            </div>
+            @*Login*@
+        </div>
+    </nav>
+
+    <div class="collapse bg-dark bg-opacity-25 zindex" id="navbarToggleExternalContent">
+        <div class="py-4">
+            <nav class="navbar navbar-expand-lg nav justify-content-center  bg-opacity-75 rounded   zindex ">
+                <div class="">
+                    <ul class="nav">
+
+                        <li class="nav-item fs-5  border border-0 bg-black  bg-opacity-25">
+                            <a class="nav-link text-white" asp-controller="Home" asp-action="yatak">Yatak Odaları</a>
+                        </li>
+                        <li class="nav-item fs-5  border border-0 bg-black  bg-opacity-25">
+                            <a class="nav-link text-white" asp-controller="Home" asp-action="bebevegenc">Bebe ve Genç Odaları</a>
+                        </li>
+                        <li class="nav-item fs-5 border border-0 bg-black  bg-opacity-25">
+                            <a class="nav-link text-white" asp-controller="Home" asp-action="tv">Tv Üniteleri </a>
+                        </li>
+                        <li class="nav-item fs-5  border border-0 bg-black  bg-opacity-25">
+                            <a class="nav-link text-white" asp-controller="Home" asp-action="yemek">Yemek Odaları</a>
+                        </li>
+                        <li class="nav-item fs-5  border border-0 bg-black  bg-opacity-25">
+                            <a class="nav-link text-white" asp-controller="Home" asp-action="mutfak">Mutfak Dolabı </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </div>
+
+
+</div>

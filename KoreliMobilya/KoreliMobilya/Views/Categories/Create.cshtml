@@ -1,0 +1,34 @@
+﻿
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+
+}
+@model CategoryViewModel
+
+<h1>Kategori Ekle</h1>
+
+
+ <form asp-controller="categories" asp-action="create" method="post" enctype="multipart/form-data">
+ 
+    <div class="mb-3">
+        <label as-for="Name" class="form-label">Model İsmi </label>
+        <input class="form-control" asp-for="Name">
+        <span class="text-danger" asp-validation-for="Name"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Description" class="form-label">Kategori Açıklaması</label>
+        <textarea class="form-control" asp-for="Description" rows="3"></textarea>
+    </div>
+    <div class="mb-3">
+        <label for="formFileLg" class="form-label">Ürün Resim   </label>
+        <input class="form-control form-control-lg" asp-for="Image5" type="file">
+    </div>
+  
+    <button class="btn btn-primary mb-3" type="submit">Ürün Kaydet</button>
+</form>
+
+<div>
+    <a class="text-decoration-underline" asp-action="Index">Kategori Kontrol Paneline Dön</a>
+</div>

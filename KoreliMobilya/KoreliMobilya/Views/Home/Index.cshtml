@@ -1,0 +1,121 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="bg-image" style="height:100vh;">
+    <img src="~/images/gül.jpg" class="w-100 h-100" />
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.4);">
+        <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="col-md-5 ms-5 mb-5 position-absolute top-50 start-0 translate-middle-y ">
+                <h1 class="display fw-bolder text-white yazi">"Yeni Yaşam Alanınız"</h1>
+                <h2 class="lead fw-bolder text-white yazii">
+                    Evinizi Uzman Mimarlarımızla Birlikte Tasarlayın, Kaliteyi uzakta Aramayın
+                </h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-4">
+        <partial name="~/PartialViews/_ProductListPartialView.cshtml" model="@ViewBag.productListPartialViewModel" />
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <partial name="~/PartialViews/_BannerListPartialView.cshtml" model="@ViewBag.bannerListPartialViewModel" />
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <partial name="~/PartialViews/_CategoryListPartialView.cshtml" model="@ViewBag.categoryListPartialViewModel" />
+    </div>
+</div>
+
+
+
+@* En Çok Satanlar*@<div class="bg-black bg-opacity-10 pt-5">
+    <vc:banner-list></vc:banner-list>
+</div>
+@* En Çok Satanlar*@
+
+
+@*Kategoriler*@
+<div class="row mx-2 " style="margin-top:40px;">
+
+    <h3 class="d-flex yazii justify-content-center mb-4">Kategoriler</h3>
+<vc:category-list></vc:category-list>
+
+</div>
+
+
+
+
+
+@*Kategoriler*@
+
+
+<div class="pxp-blog-posts pxp-content-wrapper mt-30">
+    <div class="container" style="margin-bottom:100px;">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <div class="pxp-blog-post-block pxp-full mt-4 mt-md-5">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12" style="text-align: left">
+                            <h3 style="color: #E8BE7A">Neden Koreli Mobilya’yı Tercih Etmelisiniz? </h3>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="d-flex justify-content-center row rounded-lg mt-4 mt-md-5" style="height:300px;">
+                            <div class="col-4 col-md-2 border logohov">
+                                <div class=" mt-5" style="text-align: center">
+                                    <ion-icon style="font-size:64px;" class="" name="map-sharp"></ion-icon>
+                                </div>
+                                <div class="text-center mt-5">
+                                    <div class="">Türkiye'nin Her Noktasına Teslimat</div>
+                                </div>
+                            </div>
+                            <div class="col-4 col-md-2 border logohov">
+                                <div class="  mt-5" style="text-align: center">
+                                    <ion-icon style="font-size:64px;" name="git-network-sharp"></ion-icon>
+                                </div>
+                                <div class="text-center mt-5">
+                                    <div class="" style="font-size: 1rem">Operasyon Gücü</div>
+                                </div>
+                            </div>
+                            <div class="col-4 col-md-2 border logohov">
+                                <div class="  mt-5" style="text-align: center">
+                                    <ion-icon style="font-size:64px;" name="construct-sharp"></ion-icon>
+                                </div>
+                                <div class="text-center mt-5">
+                                    <div class="">10 Yıla Kadar Garanti</div>
+                                </div>
+                            </div>
+                            <div class="col-4 col-md-2 border logohov">
+                                <div class="  mt-5" style="text-align: center">
+                                    <ion-icon style="font-size:64px;" name="analytics-sharp"></ion-icon>
+                                </div>
+                                <div class="text-center mt-5">
+                                    <div class="">Fiyat Kalite Standartların Üstünde</div>
+                                </div>
+                            </div>
+                            <div class="col-4 col-md-2 border logohov ">
+                                <div class=" mt-5" style="text-align: center">
+                                    <ion-icon style="font-size:64px;" name="swap-horizontal-sharp"></ion-icon>
+                                </div>
+                                <div class="text-center mt-5">
+                                    <div class="">Uzman Tasarımcılarıyla Dizayn Edilen Daireler</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
